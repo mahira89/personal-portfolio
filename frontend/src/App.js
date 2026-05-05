@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import axios from 'axios';
 
 // API configuration
-const API_URL = 'http://localhost:5001/api';
+const API_URL = 'https://mahira-portfolio-api.onrender.com/api';
 const api = axios.create({
   baseURL: API_URL,
   headers: { 'Content-Type': 'application/json' },
